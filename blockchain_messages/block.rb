@@ -2,7 +2,7 @@ require 'colorize'
 require 'digest'
 
 class Block
-  NUM_ZEROES = 4
+  NUM_ZEROES = 5
   attr_reader :own_hash, :prev_block_hash
 
   def initialize(prev_block, msg)
@@ -86,6 +86,7 @@ class BlockChain
 end
 
 b = BlockChain.new("---Genesis Block---")
-b.add_to_chain("Cinderella")
-b.add_to_chain("The Three Stooges")
-b.add_to_chain("Snow White")
+b.add_to_chain("Inglorious Bastards")
+b.add_to_chain("Goodfellas")
+b.add_to_chain("Godfather 2")
+puts b.valid?
