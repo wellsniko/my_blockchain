@@ -45,3 +45,4 @@ This sends $20,000 from 1111 to 2222.
 If an invalid transaction is made, it will be denied my all other user's version of the blockchain. 
 
 
+<img src="public/nikocoin_blocks.png?raw=true" width="1000">
