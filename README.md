@@ -1,4 +1,4 @@
-Allows different ports in your computer to communicate and process transactions with each other. Every transaction between ports is encrypted with a private key, and verified/mined with a public key using OpenSSL and Base64.
+A mini-cryptocurrency using Ruby to allow different ports in your computer to communicate and process transactions with each other. Every transaction between ports is encrypted with a private key, and verified/mined with a public key using OpenSSL and Base64.
 
 <br/>
 
